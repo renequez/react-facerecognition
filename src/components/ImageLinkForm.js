@@ -11,7 +11,7 @@ const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
 					in your pics!
 				</p>
 				<p className='main-text mb4'>
-					Give me a link to photo and I'll{' '}
+					Feed me a link to a photo and I'll{' '}
 					<span className='underline-magical'>execute</span>.
 				</p>
 				<div className='center'>
