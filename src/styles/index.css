@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'Roboto Mono';
+	src: url('../assets/RobotoMono-VariableFont_wght.ttf') format('truetype supports variations'),
+		url('../assets/RobotoMono-VariableFont_wght.ttf') format('truetype-variations');
+	font-weight: 100 700;
+}
+
+@font-face {
+	font-family: 'Roboto Slab';
+	src: url('../assets/RobotoSlab-VariableFont_wght.ttf') format('truetype supports variations'),
+		url('../assets/RobotoSlab-VariableFont_wght.ttf') format('truetype-variations');
+	font-weight: 100 900;
+}
+
+body {
+	margin: 0;
+	font-family: 'Roboto Slab';
+	/* font-weight: 400; */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: #f67280;
+	color: #355c7d;
+	/* background: rgb(131, 58, 180);
+	background: linear-gradient(
+		90deg,
+		rgba(131, 58, 180, 1) 0%,
+		rgba(253, 29, 29, 1) 50%,
+		rgba(252, 176, 69, 1) 100%
+	); */
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.bounding-box {
+	margin: 0 !important;
+	padding: 0 !important;
+	position: absolute;
+	box-shadow: 0 0 0 3px #149df2 inset;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	cursor: pointer;
+}

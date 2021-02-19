@@ -1,0 +1,110 @@
+/* 	primary color: #f67280
+	secondary color: #6c5b7b
+	bg color: #355c7d
+	elements gradient: linear-gradient(120deg, #d9b26f 0%, #fadf7f 100%) 
+*/
+
+a {
+	color: #355c7d;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form {
+	width: 70%;
+	margin-bottom: 2rem;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	max-width: 800px;
+}
+
+.particles {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -2;
+}
+
+.invalid {
+	font-family: 'Roboto Mono';
+	color: #a30015;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+
+.main-text {
+	font-family: 'Roboto Mono';
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.user-stats {
+	font-family: 'Roboto Slab';
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #6c5b7b;
+}
+
+.detect-btn {
+	font-family: 'Roboto Mono';
+	font-size: 0.875rem;
+	font-weight: 700;
+	border-color: #6c5b7b;
+	color: #6c5b7b;
+	background-color: transparent;
+}
+
+.detect-btn:focus {
+	color: #f67280;
+	background-color: #6c5b7b;
+}
+
+.detect-btn:hover {
+	color: #f67280;
+	background-color: #6c5b7b;
+}
+
+.underline-magical {
+	position: relative;
+}
+
+.underline-magical:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -30%;
+	width: 110%;
+	height: 150%;
+	transition: height 0.3s;
+	transform: translateX(-5%);
+	background-image: linear-gradient(120deg, #d9b26f 0%, #fadf7f 100%);
+	background-repeat: no-repeat;
+	background-size: 90% 30%;
+	background-position: 0 88%;
+	transition: background-size 0.25s ease-in;
+	z-index: -1;
+}
+
+.underline-magical:hover:after {
+	background-size: 100% 150%;
+}
+
+.rank-container {
+	width: 70%;
+}
+
+.image-container {
+	display: flex;
+	flex-grow: 1;
+	width: 70%;
+	height: auto;
+	min-height: 100% !important;
+}
