@@ -1,7 +1,7 @@
 import React from 'react';
 import Tilt from 'react-tilt';
 import '../styles/Logo.css';
-import logo from '../assets/brainstorm.png';
+import logo from '../assets/face-recognition.svg';
 
 const Logo = () => {
 	return (
