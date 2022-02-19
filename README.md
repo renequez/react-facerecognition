@@ -1,3 +1,7 @@
+# react-facerecognition
+
+Part of [Zero to Mastery's Complete Web Developer](https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery) course.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
